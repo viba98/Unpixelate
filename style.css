@@ -1,0 +1,91 @@
+canvas {
+  background: white;
+	position: relative;
+	margin:0;
+	top:0;
+	left:0;
+	z-index: 0;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#content{
+  position: absolute;
+  margin: 0;
+  top: 15%;
+  left: 25%;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 40%;
+  padding: 5% 5%;
+  align-content: center;
+}
+
+.form{
+  float: left;
+  margin-left: 12%;
+}
+
+#mc_embed_signup{
+  display: block;
+   margin-left: 16%;
+   margin-right: auto;
+
+}
+
+input{
+  height: 40px;
+  width: 50%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.button{
+  height: 40px;
+  width: 30%;
+  background-color: #3b3b3b;
+  border: none;
+  color: white;
+  font-weight: 350;
+
+}
+
+label{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.logo{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+i{
+  font-size: 30px;
+  color: #3b3b3b;
+  float: left;
+  padding: 25px;
+}
+
+i:hover{
+  color: black;
+
+}
+
+.button:hover{
+  background-color: black;
+}
+
+.fab{
+  float: left;
+}
+
+.sm_links{
+  clear: both;
+  margin-left: 26%;
+}
