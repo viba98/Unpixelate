@@ -31,8 +31,8 @@ body{
 
 #mc_embed_signup{
   display: block;
-   margin-left: 16%;
-   margin-right: auto;
+   margin-left: 65%;
+   width: 200px;
    background-color: none;
 }
 
@@ -70,6 +70,10 @@ label{
    margin-left: auto;
    margin-right: auto;
    width: 50%;
+}
+
+#mc_embed_signup form{
+  text-align: center;
 }
 
 i{
